@@ -8,7 +8,7 @@ function App() {
     <div className="w-full h-screen duration-200"
     style={{backgroundColor: color}}>
       <div className="py-10 px-10 max-w-sm mx-auto bg-slate-400 flex items-center justify-center " style={{backgroundColor:color}}>
-      <div className="py-10 px-10 max-w-sm mx-auto bg-green-200 flex items-center justify-center gap-4">
+      <div className="py-5 px-2 max-w-sm mx-auto bg-green-200 flex items-center justify-center gap-4 rounded-full">
         <button onClick={()=>setColor("red")} style={{backgroundColor:"red"}} className="outline-none px-4 py-1 rounded-full text-white shadow-lg">red</button>
         <button onClick={()=>setColor("green")} style={{backgroundColor:"green"}} className="outline-none px-4 py-1 rounded-full text-white shadow-lg">green</button>
         <button onClick={()=>setColor("blue")} style={{backgroundColor:"blue"}} className="rounded-full">blue</button>
